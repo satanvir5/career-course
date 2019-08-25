@@ -4,11 +4,13 @@ function fullNameValidate(){
     let patternMessage =window.document.getElementById('patternMessage')
    if(fullName.match(letters)){
     alert(fullName);
+
    
    }
    else{
     patternMessage.innerHTML='* please input only alphabet characters'
     patternMessage.className='textColor'
+    fullName.focus()
    
    }
    }
