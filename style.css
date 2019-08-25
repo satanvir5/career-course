@@ -1,0 +1,14 @@
+p,div{
+    margin: 0;
+    padding: 0px;
+}
+
+
+.colorForRequierd{
+    color: red;
+}
+
+.textColor{
+    color: red;
+    font-size: small
+}
