@@ -1,0 +1,82 @@
+
+body{
+    position: absulate;
+}
+
+#calculator_textarea{
+    height: 85px;
+    width: 300px;
+    background-color: 	#D3D3D3;
+    color:black;
+}
+.container{
+    height: 449px;
+    width: 336px;
+    background-color: aqua;
+  
+   
+}
+section{
+    position: relative;
+    left: 300px;
+    
+
+}
+input{
+    width: 80px;
+    height: 67px;
+    font-size: 35px;
+}
+input hovour{
+    background-color: aquamarine
+}
+#multiply{
+    font-size: 13px;
+}
+#equal{
+    width: 164px;
+}
+
+
+#manual-input{
+    margin-top: 100px;
+    width: 500px;
+    height: 485px;
+    background-color: cadetblue;
+    color:white;
+    font-size: 30px;
+}
+#number1{
+    height: 40px;
+    margin-bottom: 10px;
+    width: 296px;
+    
+ 
+}
+#number2{
+    height: 40px;
+    margin-top: 10px;
+    width: 296px;
+}
+#result1{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 296px;
+
+}
+
+.font-weight{
+    font-weight: bold
+}
+.operation{
+  
+    margin-top: 10px;
+    margin-left: 157px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+}

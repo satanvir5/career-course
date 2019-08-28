@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator-style.css">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <fieldset>
+           <input  id="calculator_textarea" value="">
+        </fieldset>
+        <diV>
+            <input type="button" id="all_clear" value="CE" name="all_clear">
+            <input type="button" id="division" value="/" name="division"> 
+            <input type="button" id="multiplication" value="*" name="multiply">
+             <input type="button" id="modulus" value="%" name="modulus">
+        </diV>
+        <diV>
+            
+            <input type="button" id="one" value="1" name="one"> 
+            <input type="button" id="two" value="2" name="two">
+            <input type="button" id="three" value="3" name="three">
+             <input type="button" id="addition" value="+" name="addition">
+        </diV>
+        <diV>
+            <input type="button" id="four" value="4" name="four">
+            <input type="button" id="five" value="5" name="five"> 
+            <input type="button" id="six" value="6" name="six">
+             <input type="button" id="subtraction" value="-" name="subtraction">
+        </diV>
+        <diV>
+            <input type="button" id="seven" value="7" name="seven">
+            <input type="button" id="eight" value="8" name="eight"> 
+            <input type="button" id="nine" value="9" name="nine">
+             <input type="button" id="delete" value="DEL" name="delete">
+        </diV>
+        <diV>
+            <input type="button" id="zero" value="0" name="zero">
+            <input type="button" id="equal" value="=" name="equal"> 
+            <input type="button" id="point" value="." name="point">
+            
+        </diV>
+    </div>
+    
+</section>
+
+
+<section>
+<fieldset id="manual-input">
+    <h3>Mannual Input Calculator:</h3>
+    <div>
+            <lavel for="number1"><span class="font-weight">Number 1:</span></lavel>
+            <input type="number" id="number1" value="" placeholder="0">
+
+    </div>
+
+     
+    <div>
+            <lavel for="number2"><span class="font-weight">Number 2:</span></lavel>
+            <input type="number" id="number2" value="" placeholder="0">
+
+    </div>
+    <div class="operation">
+            <div>
+                 <button id="addition1">+</button>
+                 <button id="subtraction1">-</button>
+                 <button id="clear">AC</button>
+            </div> 
+            
+     <div>
+             
+             <button id="multiplication1">*</button>
+             <button id="division1">/</button>
+             <button type="button" id="modulus1" >%</button>
+
+     </div>
+    </div>
+
+    <div>
+            
+            <lavel for="result1"><span class="font-weight">Result:</span></lavel>
+            <input type="number" id="result1" value="" placeholder="0">
+           
+
+
+      
+    </div>
+
+</fieldset>
+</section>
+
+<script src="calculator.js"></script>
+</body>
+</html>
