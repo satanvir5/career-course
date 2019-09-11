@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>BOM Assignment</title>
-</head>
-<body>
-    <div>
-            
-                     <h1>BOM Assignment</h1>
-                    <h2>1.Timing Event</h2>
-                    <h3>SetTimeOut Function</h3>
-                    <p id="toggoleForSetTimeOut">From here: </p>
-            
-               
-    </div>
-    <div>
-        <button id="clkForStart">Start</button>
-        <button id="clkForStop">Stop</button>
-    </div>
-    <div>
-            <h3>SetTimeInterval Function</h3>
-            <p id="toggoleForSetInterval">From here: </p>
-    </div>
-    <div>
-            <button id="clkForStartAgain">Start</button>
-            <button id="clkForStopAgain">Stop</button>
-    </div>
+  </head>
 
-
+  <body>
+    <h1>BOM Assignment</h1>
     <div>
-        <h2>2.Childrean Of Window Object</h2>
-        <h3>Window.screen</h3>
-        <p>Show window propertise:</p>
-        <p id="screenWidth">width:</p>
-        <p id="screenHeight">Height:</p>
-        <p id="screenWidth1">width:</p>
-        <p id="screenHeight1">Height:</p>
-        <button onclick="screen()">Show Screen Width Height</button>
-     
+      <h2>1.Timing Event</h2>
+      <h3>SetTimeOut Function</h3>
+      <p id="toggoleForSetTimeOut">From here:</p>
+    </div>
+    <div>
+      <button id="clkForStart">Start</button>
+      <button id="clkForStop">Stop</button>
+    </div>
+    <div>
+      <h3>SetInterval Function</h3>
+      <p id="toggoleForSetInterval">From here:</p>
+    </div>
+    <div>
+      <button id="clkForStartAgain">Start</button>
+      <button id="clkForStopAgain">Stop</button>
     </div>
 
     <div>
-        <p id="location">Location:</p>
+      <h2>2.Childrean Of Window Object</h2>
+      <h3>Window.screen</h3>
+      <p>Show window propertise:</p>
+      <p id="screenWidth">width:</p>
+      <p id="screenHeight">Height:</p>
+      <p id="screenWidth1">width:</p>
+      <p id="screenHeight1">Height:</p>
+      <button onclick="screen()">Show Screen Width Height</button>
     </div>
 
-
-<script>
-document.getElementById("screenWidth").innerHTML +=  screen.width;
-document.getElementById("screenHeight").innerHTML += screen.height;
-
-
-
-</script>
-    <script>
-    function screen(){
-    document.getElementById("screenWidth").innerHTML += screen.width
-   
-    }
-</script>
+    <div>
+      <h3>Window.location</h3>
+      <p id="location">Location:</p>
+      <p id="hostname">hostname:</p>
+      <p id="protocol">Protocol:</p>
+    </div>
 
     <script src="timing-event.js"></script>
     <script src="screenPropertise.js"></script>
-    <screen src="location.js"></screen>
-</body>
+    <script src="location.js"></script>
+  </body>
 </html>
