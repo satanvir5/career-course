@@ -1,0 +1,125 @@
+Student Database:
+[{
+  "student_id": {
+    "$oid": "c164520"
+  },
+  "student_name": "Tanvir Ahmad",
+  "department": "CSE",
+  "organization": IIUC,
+  "cgpa": "$3.6"
+}, {
+  "student_id": {
+    "$oid": "c164521"
+  },
+  "student_name": "Sirajul Islam",
+  "department": "CSE",
+  "organization": IIUC,
+  "cgpa": "$3.8"
+},
+
+{
+  "student_id": {
+    "$oid": "c164510"
+  },
+  "student_name": "Fahim Ahmed",
+  "department": "CSE",
+  "organization": IIUC,
+  "cgpa": "$3.8"
+},
+{
+  "student_id": {
+    "$oid": "c164530"
+  },
+  "student_name": "Shakil Ahmed",
+  "department": "CSE",
+  "organization": IIUC,
+  "cgpa": "$3.9"
+}]
+
+Hospital Management:
+
+Patient:
+[{
+  "Patient_id": {
+  "$mobile_Number": "0185555555"
+  },
+  "Patient_name": "Tanvir Ahmad",
+  "department": "emargency",
+  "Room_no":"$305"
+ 
+}, {
+  "Patient_id": {
+  "$mobile_Number": "018552225"
+  },
+  "Patient_name": "Fahim Ahmad",
+  "department": "ENT",
+  "Room_no":"$305"
+ 
+},
+{
+  "Patient_id": {
+  "$mobile_Number": "015555111"
+  },
+  "Patient_name": "Shakil Ahmad",
+  "department": "Medicine",
+  "Room_no":"$309"
+ 
+},
+{
+  "Patient_id": {
+  "$mobile_Number": "0135548555"
+  },
+  "Patient_name": "Shiraj Ahmad",
+  "department": "sergery",
+  "Room_no":"ICU"
+ 
+}]
+
+Dotor:
+[{
+  "doctor_id": {
+  "$mobile_Number": "018885967"
+  },
+  "Patient_name": "Tanvir Ahmad",
+  "expert": "neorologist",
+  "education":"MBBS from CMC"
+ 
+}, {
+  "Patient_id": {
+  "$mobile_Number": "017865428"
+  },
+  "Patient_name": "Fahim Ahmad",
+  "expertt": "ENT",
+ "education":"MBBS from DMC"
+ 
+}]
+
+Product:
+[{
+  "product_id": {
+  "$id": "025"
+  },
+  "product_item": "chips",
+ "product_name": "potato crackers",
+  "price": "10",
+  "company":"pran"
+ 
+}]
+
+
+Postal Code:
+
+[{"noakhali":[  
+    {"kabirhat":"3807"},  
+    {"sadar":"3800"},  
+    {"hatiya":"3890"},
+    {"shenbag":"3860"},
+    {"begomgonj":"3831"} 
+]},
+{"chadpur":[  
+    {"Chandpur Sadar":"3600"},  
+    {"Faridganj":"3650"},  
+    {"Hajiganj":"3610"},
+    {"Matlobganj":"3640"},
+    {"Shahrasti":"3620"} 
+]}]
