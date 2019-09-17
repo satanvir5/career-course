@@ -17,6 +17,7 @@ function teletype() {
   }
 }
 
+
 function stopTimer() {
   clearTimeout(timer);
 }
