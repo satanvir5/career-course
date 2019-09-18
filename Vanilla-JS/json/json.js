@@ -186,7 +186,6 @@ let Doctor = [
   }
 ];
 
-
 console.log(Doctor);
 console.log(Doctor[1].Patient_id.mobile_Number[0]);
 console.log(Doctor[1].Patient_id.mobile_Number[1]);
