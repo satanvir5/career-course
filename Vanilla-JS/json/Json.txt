@@ -123,3 +123,103 @@ Postal Code:
     {"Matlobganj":"3640"},
     {"Shahrasti":"3620"} 
 ]}]
+
+let teacher = [];
+const student = ["farjana", "Tuli", "Akter", "Farhana", "Tanvir"];
+
+const Tuli = {
+    Name: "Farjana Akter Tuli",
+    Gender: "female",
+    Study: {
+        org: ["IIUC", "SGHS", "Port city"],
+        subject: "B.Sc in CSE at IIUC"
+    },
+    Age: 22
+};
+
+let Address={
+  Home:"Najir Ahmad Master Bari",
+  Village:"Norsinghapur",
+  Post_Office:"Kabir Hat",
+  Thana:"Kabir Hat",
+  District:"Noakhali"
+}
+
+
+  let mobile=[
+      {
+          iphone:{
+            model:"iPhone 5",
+            display:5,
+            price:30000,
+            ram:2,
+            rom:16
+          }
+      },
+      {
+          samsung:[
+            {
+                A70:{
+            model:"Samsang A70",
+            display:6.7,
+            price:38900,
+            ram:6,
+            rom:128
+                }
+            },
+            {
+                A50:{
+                    model:"Samsang A50",
+                    display:6.3,
+                    price:25000,
+                    ram:4,
+                    rom:128
+                        }
+            },
+            {
+                A20:{
+                    model:"Samsang A20",
+                    display:6.3,
+                    price:15990,
+                    ram:3,
+                    rom:64
+                        }
+            }
+          ]
+
+      }
+  ]
+
+
+let room=[
+    "bed",table=
+    ["computer table","normal table"],
+    "chair","hanger","cloth","mat","window",
+    laptop={
+        model:"Lenevo ideapad 320",
+        "graphics card":"Nvidia GEFORCE",
+        ram:"8 GB",
+        "Hard disk":"2 TB",
+        core:"Core i5",
+        generation: "8th"
+    }
+]
+
+
+
+
+let cricket_team=[
+    {Bangladesh:[
+        "Tamim Ikbal","Soumya Sarker",'Najmul Hossain Shanto', 'Liton Das', 'Shakib Al Hasan (c)', 'Mushfiqur Rahim (wk)',
+        'Mahmudullah','Mosaddek Hossain','Afif Hossain', 'Aminul Islam',' Mohammad Saifuddin', 
+        'Shafiul Islam', 'Mustafizur Rahman','Sabbir Rahman', 'Taijul Islam','Rubel Hossain', 'Mohammad Naim'
+    ]},
+    {India:['Rohit Sharma', 'Shikhar Dhawan', 'Virat Kohli (c)', 'Shreyas Iyer', 'Rishabh Pant (wk)','Hardik Pandya',
+     'Krunal Pandya', 'Ravindra Jadeja', 'Washington Sundar','Deepak Chahar', 'Navdeep Saini', 'Lokesh Rahul',
+     'Manish Pandey', 'Rahul Chahar', 'K Khaleel Ahmed']},
+  {"South Africa":[
+    'Quinton de Kock (c & wk)', 'Reeza Hendricks', 'Temba Bavuma', 'Rassie van der Dussen','David Miller', 'Andile Phehlukwayo',
+     'Dwaine Pretorius', 'Bjorn Fortuin', 'Kagiso Rabada', 'Anrich Nortje', 'Tabraiz Shamsi','George Linde', 'Junior Dala', 
+     'Beuran Hendricks'
+  ]}
+]
