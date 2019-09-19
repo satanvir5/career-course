@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" id="products-list">
+        <tr>
+            <th>Id</th>
+            <th>Product Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            
+        </tr>
+        
+        
+    </table>
+    <script>
+        const products = [
+    {
+        id:1,
+        type:"Laptop",
+        brand:"HP",
+        price: 100000
+    },
+    {
+        id:2,
+        type:"Mouse",
+        brand:"A4",
+        price: 400
+    },
+    {
+        id:3,
+        type:"Keyboard",
+        brand:"Logitech",
+        price: 300
+    }
+]
+
+const table = document.getElementById('products-list')
+
+for(let product of products){
+    
+    let tr = '';  // find the reason why
+
+    tr += '<tr>'
+    tr += '<td>'+product.id+'</td>'
+    tr += '<td>'+product.type+'</td>'
+    tr += '<td>'+product.brand+'</td>'
+    tr += '<td>'+product.price+'</td>'
+    tr += '</tr>'
+    
+    table.innerHTML += tr;
+
+    console.log(tr)
+}
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
